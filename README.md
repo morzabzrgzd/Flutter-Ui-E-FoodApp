@@ -1,11 +1,4 @@
-# Flutter Ui (E-Food App)
-
-Youtube link : https://www.youtube.com/watch?v=KCDleE5QNh8&list=PLzTAk2d8M8yhvy3Zg_2AKxzTGAGtS7Rc8
-
-![maxresdefault (2)](https://user-images.githubusercontent.com/87581799/133476459-7fe9b11f-732c-4812-836a-8cbd5c69b418.jpg)
-![maxresdefault (1)](https://user-images.githubusercontent.com/87581799/133476485-9a71f29c-0f51-4cc5-9383-e66c275e23a3.jpg)
-![maxresdefault](https://user-images.githubusercontent.com/87581799/133476503-f1ecc22d-81a0-4a8e-836e-fd31c1a45f80.jpg)
-
+# food_app
 
 A new Flutter project.
 

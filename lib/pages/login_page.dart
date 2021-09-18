@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:food_app/data/colors.dart';
 import 'package:food_app/screens/Forget%20Password/forget_password_screen.dart';
+import 'package:food_app/screens/Home/home_screen.dart';
 import 'package:food_app/widgets/buttom_login_regis_google.dart';
 import 'package:food_app/widgets/form_items.dart';
 
@@ -45,11 +46,13 @@ class LoginPage extends StatelessWidget {
                 children: [
                   InkWell(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const ForgetPasswordScreen(),
-                          ));
+                      
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) =>const  ForgetPasswordScreen(),
+                  ),
+                );
                     },
                     child: Text(
                       'Forget Password?',
@@ -66,6 +69,14 @@ class LoginPage extends StatelessWidget {
             ButtomRegisterAndLoginAndGoogle(
               size: size,
               titleButtom: 'Login',
+              onTab: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) =>const  HomeScreen(),
+                  ),
+                );
+              },
             ),
           ],
         ),

@@ -8,11 +8,12 @@ class ButtomRegisterAndLoginAndGoogle extends StatelessWidget {
   const ButtomRegisterAndLoginAndGoogle({
     Key? key,
     required this.size,
-    required this.titleButtom,
+    required this.titleButtom, this.onTab,
   }) : super(key: key);
 
   final Size size;
   final String titleButtom;
+  final onTab;
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +27,7 @@ class ButtomRegisterAndLoginAndGoogle extends StatelessWidget {
           backgroundColor: kPrimeryColor,
           title: titleButtom,
           titleColor: Colors.white,
-          onTab: () {},
+          onTab: onTab,
         ),
         Container(
           margin: EdgeInsets.symmetric(horizontal: size.width * 0.25),

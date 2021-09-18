@@ -4,7 +4,6 @@ import 'package:flutter/painting.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:food_app/data/colors.dart';
 import 'package:food_app/widgets/buttom_widget.dart';
-import 'package:food_app/widgets/form_items.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SuccessPaswordScreen extends StatelessWidget {
