@@ -12,8 +12,7 @@ class ProfilePage extends StatelessWidget {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.grey.shade200,
-      // backgroundColor: Colors.blue,
+      backgroundColor: Colors.grey.shade100,
       body: Container(
         padding: EdgeInsets.symmetric(
           horizontal: size.width * 0.05,
