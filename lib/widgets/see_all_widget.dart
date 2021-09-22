@@ -4,12 +4,14 @@ import 'package:food_app/data/colors.dart';
 class SeeAllRowWidget extends StatelessWidget {
   const SeeAllRowWidget({
     Key? key,
-    required this.size,required this.title,required this.subTitle,
+    required this.size,required this.title,required this.subTitle,required this.seeAllColor,required this.iconColor,
   }) : super(key: key);
 
   final Size size;
   final String title;
   final String subTitle;
+  final seeAllColor;
+  final iconColor;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -49,12 +51,12 @@ class SeeAllRowWidget extends StatelessWidget {
                   'See All ',
                   style: TextStyle(
                     fontSize: size.width * 0.035,
-                    color: kTextColor,
+                    color: seeAllColor,
                   ),
                 ),
                 Icon(
                   Icons.arrow_forward_ios,
-                  color: kTextColor,
+                  color: iconColor,
                   size: size.width * 0.035,
                 ),
               ],
